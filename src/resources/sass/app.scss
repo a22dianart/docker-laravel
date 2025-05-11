@@ -1,0 +1,24 @@
+// resources/sass/app.scss
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+$primary-color: #4CAF50;
+$secondary-color: #007BFF;
+
+body {
+    background-color: #f8f9fa;
+}
+
+button {
+    background-color: $primary-color;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 0.25rem;
+}
+
+button:hover {
+    background-color: darken($primary-color, 10%);
+}
